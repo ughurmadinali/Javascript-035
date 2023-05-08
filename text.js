@@ -9,16 +9,15 @@
 3
 //измените содержимое тега 'p' на 'Новый текст'
 //<p id="txt">Some text</p>
-let p = 'Some text'
+document.querySelector('p')
 
 p.innerHtml = 'Новый текст'
 
 4
 //выведите в консоли содержимое тега 'p'
 //<p id="txt">Some text</p>
-let p = 'Some text'
 
-console.log(p);
+console.log(p.innerHTML);
 
 5
 //получите доступ к элементу с помощью (get...)
@@ -38,17 +37,17 @@ document.getElementsByTagName('div')
 8
 //получите доступ к элементу с помощью (query...) через имя атрибута
 //<div title="someText"></div>
-const element1 = document.querySelector('.someText')
+
 
 9
 //получите доступ к элементу с помощью (query...) через имя и значение атрибута
 //<div title="someText"></div>
-const element2 = document.querySelector('.someText')
+
 
 10
 //получите доступ к элементу с помощью (query...) через тег, имя и значение атрибута
 //<div title="someText"></div>
-const element3 = document.querySelector('.someText')
+
 
 11
 //получите доступ к элементу с помощью (query...) через имя класса
