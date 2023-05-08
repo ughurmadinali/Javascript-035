@@ -79,15 +79,20 @@ const element6 = document.querySelector('div')
 
 17
 //с помощью какого метода DOM можно создать элемент в javascript?
+document.createElement(element)
 
 18
 //с помощью какого метода DOM можно удалить элемент в javascript?
+document.removeChild(element)
 
 19
 //с помощью какого метода DOM можно добавить элемент в javascript?
+document.appendChild(element)	
 
 20
 //с помощью какого метода DOM можно заменить элемент в javascript?
+document.replaceChild(new, old)	
 
 21
 //с помощью какого метода DOM можно записать текст в элемент в javascript?
+document.write(text)	
